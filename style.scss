@@ -9,7 +9,7 @@ $border-radius-size: 0px;
 
 $bp-md: 768px;
 
-#sustainibility-guide {
+#sustainability-guide {
 max-width: 1240px;
 padding-top: 70px; /////////
 margin: auto;
@@ -96,6 +96,9 @@ margin: auto;
     align-items: center;
     flex-direction: column;
 
+    .note {
+        font-style: italic;
+    }
     // .image-wrapper {
     //     width: 150%;
     //     max-width: 95vw;

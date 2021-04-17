@@ -1,30 +1,30 @@
-#sustainibility-guide {
+#sustainability-guide {
   max-width: 1240px;
   padding-top: 70px;
   margin: auto; }
-  #sustainibility-guide .story {
+  #sustainability-guide .story {
     margin-bottom: 50px; }
-  #sustainibility-guide .icon {
+  #sustainability-guide .icon {
     z-index: -1;
     display: flex;
     justify-content: space-around; }
-    #sustainibility-guide .icon img {
+    #sustainability-guide .icon img {
       width: 100%;
       max-width: 70vw; }
-  #sustainibility-guide .icon-right {
+  #sustainability-guide .icon-right {
     transform: translate(-50px); }
     @media (max-width: 768px) {
-      #sustainibility-guide .icon-right {
+      #sustainability-guide .icon-right {
         transform: translate(0px); } }
-  #sustainibility-guide .icon-left {
+  #sustainability-guide .icon-left {
     transform: translate(50px); }
     @media (max-width: 768px) {
-      #sustainibility-guide .icon-left {
+      #sustainability-guide .icon-left {
         transform: translate(0px); } }
-  #sustainibility-guide .article-heading button {
+  #sustainability-guide .article-heading button {
     border: none;
     background-color: #fff; }
-  #sustainibility-guide .article-heading .title {
+  #sustainability-guide .article-heading .title {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     font-family: "Jost", "Georgia", serif;
@@ -37,7 +37,7 @@
     padding-bottom: 20px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px; }
-    #sustainibility-guide .article-heading .title span {
+    #sustainability-guide .article-heading .title span {
       font-family: "Jost", "Georgia", serif;
       font-style: italic;
       font-size: 130px;
@@ -45,13 +45,13 @@
       color: #666;
       letter-spacing: -2px;
       text-transform: lowercase; }
-  #sustainibility-guide .article-heading .horizontal-divider {
+  #sustainability-guide .article-heading .horizontal-divider {
     background: #fff;
     height: 4px;
     width: 90%;
     margin-top: -3px;
     margin: auto; }
-  #sustainibility-guide .article-heading .author-info {
+  #sustainability-guide .article-heading .author-info {
     font-size: 1.2em;
     font-family: "Helvetica", "Arial", sans-serif;
     color: #fff;
@@ -59,13 +59,15 @@
     padding: 20px 40px 20px 40px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px; }
-    #sustainibility-guide .article-heading .author-info .author {
+    #sustainability-guide .article-heading .author-info .author {
       font-weight: bold; }
-  #sustainibility-guide .article-contents {
+  #sustainability-guide .article-contents {
     font-family: "Georgia", "Times", serif;
     font-size: 1.5em;
     display: flex;
     align-items: center;
     flex-direction: column; }
+    #sustainability-guide .article-contents .note {
+      font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */
