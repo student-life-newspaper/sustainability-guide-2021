@@ -1,7 +1,19 @@
 #sustainability-guide {
   max-width: 1240px;
-  padding-top: 70px;
   margin: auto; }
+  #sustainability-guide .heading {
+    background-color: #283618;
+    color: #FEFAE0;
+    height: 400px;
+    margin-bottom: 50px; }
+    #sustainability-guide .heading .row {
+      height: 100%; }
+    #sustainability-guide .heading .col-12 {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
   #sustainability-guide .story {
     margin-bottom: 50px; }
   #sustainability-guide .icon {

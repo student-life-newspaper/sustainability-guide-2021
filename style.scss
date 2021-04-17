@@ -11,8 +11,24 @@ $bp-md: 768px;
 
 #sustainability-guide {
 max-width: 1240px;
-padding-top: 70px; /////////
 margin: auto;
+
+.heading {
+    background-color: $color-dark-green-1;
+    color: $color-cream;
+    height: 400px;
+    margin-bottom: 50px;
+    .row {
+        height: 100%;
+    }
+    .col-12 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 .story {
     margin-bottom: 50px;
