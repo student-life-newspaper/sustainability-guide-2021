@@ -6,8 +6,10 @@
   #sustainability-guide .heading {
     background-color: #0e7a53;
     color: #FEFAE0;
-    height: 400px;
-    margin-bottom: 50px; }
+    height: 496px;
+    margin-bottom: 50px;
+    background-image: url("img/header.png");
+    font-family: "Jost", "Georgia", serif; }
     #sustainability-guide .heading .row {
       height: 100%; }
     #sustainability-guide .heading .col-12 {
@@ -15,7 +17,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      background-color: #06332249; }
+      #sustainability-guide .heading .col-12 h1 {
+        font-size: 3em; }
   #sustainability-guide .story {
     margin-bottom: 50px; }
   #sustainability-guide .icon {
@@ -71,7 +76,9 @@
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    flex-direction: column; }
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto; }
     #sustainability-guide .article-contents .note {
       font-style: italic; }
 
