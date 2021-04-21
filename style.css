@@ -19,23 +19,15 @@
   #sustainability-guide .icon {
     z-index: -1;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; }
     #sustainability-guide .icon img {
       width: 100%;
       max-width: 70vw; }
-  #sustainability-guide .icon-right {
-    transform: translate(-50px); }
-    @media (max-width: 768px) {
-      #sustainability-guide .icon-right {
-        transform: translate(0px); } }
-  #sustainability-guide .icon-left {
-    transform: translate(50px); }
-    @media (max-width: 768px) {
-      #sustainability-guide .icon-left {
-        transform: translate(0px); } }
   #sustainability-guide .article-heading button {
     border: none;
-    background-color: #fff; }
+    background-color: #fff;
+    width: 100%; }
   #sustainability-guide .article-heading .title {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;

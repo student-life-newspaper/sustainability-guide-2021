@@ -38,28 +38,30 @@ margin: auto;
     z-index: -1;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     img {
         width: 100%;
         max-width: 70vw;
     }
 }
-.icon-right {
-    transform: translate(-50px);
-    @media (max-width: $bp-md) {
-        transform: translate(0px);
-    }
-}
-.icon-left {
-    transform: translate(50px);
-    @media (max-width: $bp-md) {
-        transform: translate(0px);
-    }
-}
+// .icon-right {
+//     transform: translate(-50px);
+//     @media (max-width: $bp-md) {
+//         transform: translate(0px);
+//     }
+// }
+// .icon-left {
+//     transform: translate(50px);
+//     @media (max-width: $bp-md) {
+//         transform: translate(0px);
+//     }
+// }
 
 .article-heading {
     button {
         border: none;
         background-color: #fff;
+        width: 100%;
     }
     .title {
         border-top-right-radius: $border-radius-size;
