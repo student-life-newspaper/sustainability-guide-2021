@@ -2,7 +2,8 @@ $font-headings-sans: 'Helvetica', 'Arial', sans-serif;
 $font-headings-serif: 'Jost', 'Georgia', serif;
 $font-body: 'Georgia', 'Times', serif;
 
-$color-dark-green-1: #283618;
+$color-dark-green-1: #0e7a53;
+$color-light-green: #9dd08a;
 $color-cream: #FEFAE0;
 
 $border-radius-size: 0px;
@@ -13,9 +14,9 @@ $bp-md: 768px;
 max-width: 1240px;
 margin: auto;
 
-// .ad-row {
-//     margin: 
-// }
+.ad-row img {
+    max-width: 95%;
+}
 
 .heading {
     background-color: $color-dark-green-1;
@@ -45,7 +46,7 @@ margin: auto;
     align-items: center;
     img {
         width: 100%;
-        max-width: 70vw;
+        // max-width: 70vw;
     }
 }
 // .icon-right {
@@ -101,7 +102,7 @@ margin: auto;
         font-size: 1.2em;
         font-family: $font-headings-sans;
         color: #fff;
-        background-color: #283618;
+        background-color: $color-dark-green-1;
         padding: 20px 40px 20px 40px;
         border-bottom-right-radius: $border-radius-size;
         border-bottom-left-radius: $border-radius-size;
