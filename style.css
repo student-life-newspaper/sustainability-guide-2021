@@ -2,13 +2,15 @@
   max-width: 1240px;
   margin: auto; }
   #sustainability-guide .ad-row img {
-    max-width: 95%; }
+    max-width: 480px; }
+  #sustainability-guide .ad-row a span {
+    display: none; }
   #sustainability-guide .heading {
     background-color: #0e7a53;
-    color: #FEFAE0;
+    color: #fff;
     height: 496px;
     margin-bottom: 50px;
-    background-image: url("img/header.png");
+    background-image: url("https://www.studlife.com/img/sustainability-guide-2021/header.png");
     font-family: "Jost", "Georgia", serif; }
     #sustainability-guide .heading .row {
       height: 100%; }
