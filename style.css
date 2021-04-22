@@ -2,7 +2,9 @@
   max-width: 1240px;
   margin: auto; }
   #sustainability-guide .ad-row img {
-    max-width: 480px; }
+    max-width: 480px;
+    width: 95%;
+    margin: auto; }
   #sustainability-guide .ad-row a span {
     display: none; }
   #sustainability-guide .heading {
@@ -22,7 +24,8 @@
       justify-content: center;
       background-color: #06332249; }
       #sustainability-guide .heading .col-12 h1 {
-        font-size: 3em; }
+        font-size: 3em;
+        font-family: "Jost", "Georgia", serif; }
   #sustainability-guide .story {
     margin-bottom: 50px; }
   #sustainability-guide .icon {
